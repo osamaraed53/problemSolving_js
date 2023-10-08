@@ -114,3 +114,88 @@ function fizzbuzz(arr){
     );
     return new_arr;
 }
+
+
+// Q7
+function Q7(arr){
+    arr.forEach(element => {
+        console.log(element);
+    });
+}
+
+// Q8
+
+function Q8(arr){
+    let new_arr = [ ];
+    arr.forEach(element =>{
+        let newPair = {
+            "id" : element.id,
+            "title" : element.title
+        }
+        new_arr.push(newPair)
+    }    
+    );
+    return new_arr;
+}
+
+
+// Q9
+function Q9(arr){
+    let new_arr = [ ];
+    arr.map((element) =>{
+
+    let newPair = {
+        "id" : element.id,
+        "title" : element.title
+    }
+    new_arr.push(newPair)
+
+
+    } );
+
+    return new_arr;
+}
+
+
+// Q10
+function Q10(arr){
+    let new_arr = [ ];
+    arr.map((element) =>{
+
+    let newPair = {
+        "id" : element.id,
+        "title" : element.title
+    }
+    new_arr.push(newPair)
+
+
+    } );
+
+    return new_arr;
+}
+
+
+// Q11
+function Q11(arr) { 
+    return arr.reduce((accumulator, current) => {
+      if (current.length > longest.length) {
+        return current;
+      } else {
+        return longest;
+      }
+    }, "");
+  }
+     
+
+// Q12
+function Q12(arr) { 
+    return arr.reduce((accumulator, current) => {
+        accumulator.push(current.version.name);
+        return accumulator;
+    }, []);
+  }
+
+
+  //q13 
+//   a- Hi Coach ! Rawan
+// b- Car owner? undefined
